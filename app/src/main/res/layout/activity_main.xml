@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bs206.retrofittest.kotlin.MainActivity">
+
+    <Button
+        android:id="@+id/vertical_list_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Show in RecyclerView"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/viewpager_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Show in Viewpager"
+        app:layout_constraintTop_toBottomOf="@+id/vertical_list_btn"
+        tools:layout_editor_absoluteX="0dp"
+        tools:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/place_image_on_imageview_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Put Image on ImageView"
+        app:layout_constraintTop_toBottomOf="@+id/viewpager_btn"
+        tools:layout_editor_absoluteX="0dp"
+        tools:textAllCaps="false" />
+
+</android.support.constraint.ConstraintLayout>
